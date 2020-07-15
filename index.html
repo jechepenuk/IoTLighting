@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta viewport= "viewport" content="width=device-width, initial-scale=1">
+    <title>IoT Lighting</title>
+    <link rel="stylesheet" href="style1.css"/>
+  </head>
+  <body>
+    <h2 class="connection"> Connection:  </h2>
+    <h1 class="lightStatus">CLICK TO OPERATE LIGHTS</h1>
+    <button class="lightButton" id="1" onClick="changeButton(this.id)">Light 1 ON</button>   
+    <button class="lightButton" id="2" onClick="changeButton(this.id)">Light 2 ON</button>   
+    <button class="lightButton" id="3" onClick="changeButton(this.id)">Light 3 ON</button>   
+    <button class="lightButton" id="4" onClick="changeButton(this.id)">Light 4 ON</button>   
+    <button class="lightButton" id="Master" onClick="changeAll(this.id)">Light Master ON</button>   
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/__/firebase/6.3.3/firebase-database.js"></script>
+    <script src="/__/firebase/init.js"></script>     
+    <script src="script.js"></script>
+  </body>
+</html>
+
